@@ -4,9 +4,9 @@
 A race condition is basically about two processes which try to be the last to be called.
 
 ## Disabling Interrupts
-### i)
+### i) Why is it impossible to achieve Mutual Exclusion via disabling interrupts on a multi-core machine?
 If you were to disable interupts on one core the other cores would still be able to access the shared memory.
-### ii)
+### ii) Why is it dangerous to give user processes the power to disable interrupts?
 It is possible that the user just might forget to enable interupts again.
 
 ## Peterson Solutoin
