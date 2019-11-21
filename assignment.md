@@ -11,4 +11,12 @@ It is possible that the user just might forget to enable interupts again.
 
 ## Peterson Solutoin
 ### i) Play through the two scenarios of the handout of Peterson's solution. Document how it works.
-+ 
+#### Scenario 1
++ The first process enters the critical region.
++ The second process is blocked from entering the critical region.
++ The first process does whatever it has to do.
++ The second process still has to wait for the first process to leave.
++ The first process is finished and leaves the critical region.
++ The second process enters the critical region.
+#### Scenario 2
+
